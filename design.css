@@ -1,0 +1,124 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@300&family=Roboto:wght@300&display=swap');
+body
+{
+    background-color: rgb(10, 21, 53);
+    margin: 0em;   
+    display: flex;
+    justify-content: center;
+}
+img
+{
+    height: 12em;
+    width: 12em;
+    border-radius: 0.7em;
+    padding: 0.5em;
+    
+}
+.card
+{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: rgb(32, 45, 82);
+    width: min-content;
+    border-radius: 0.5em;
+    margin-top: 10em;
+
+}
+.text
+{
+    color: aliceblue;
+    font-family: 'Roboto', sans-serif;
+    margin: 0.8em;
+}
+h1{
+    text-transform: capitalize;
+    font-size:1rem;
+    font-weight: bolder;
+
+}
+h2{
+    color: rgba(240, 248, 255, 0.418);
+    font-size: 0.6rem;
+    font-weight: 550;
+    text-align:left;
+    
+}
+hr{
+    margin-top: 1em;
+    margin-bottom: 1em;
+
+    border: solid 0.01rem;
+    opacity:20%;
+}
+.actions
+{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.eth
+{
+    display:flex;
+    flex-direction: row;
+    font-size: 0.7rem;
+    color: aqua;
+
+}
+.eth img
+{
+    width: 0.6rem;
+    height:  0.7rem;
+
+}
+.time
+{
+    display:flex;
+    flex-direction: row;
+    font-size: 0.7rem;
+    color: rgb(99, 128, 209);
+}
+.time img
+{
+    width: 0.7rem;
+    height:  0.7rem;
+
+}
+.timetext
+{
+    font-weight:500;    margin-top: 0.4em;
+}
+.ethtext
+{
+    font-weight:500;
+    margin-top: 0.4em;
+}
+.lower
+{
+    display: flex;
+    flex-direction: row;
+    justify-content:flex-start;
+    font-size: smaller;
+}
+.lower img{
+    width: 1.5rem;
+    height:1.5rem;
+    padding: 0em;
+border-radius: 100%;
+border: 0.1rem solid #ffffff;
+}
+.first
+{
+    color: rgba(125, 146, 204, 0.719);
+    font-family: 'Roboto', sans-serif;
+    margin-top: 0.5em;
+    margin-left:0.5em
+
+}
+.second
+{
+        font-family: 'Roboto', sans-serif;
+        margin-top: 0.5em;
+        margin-left:0.5em
+
+}
